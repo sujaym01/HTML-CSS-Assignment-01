@@ -1,0 +1,125 @@
+html{
+    scroll-behavior: smooth;
+  }
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: 'Handlee', cursive; */
+  }
+
+
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Roboto', sans-serif;
+  }
+
+.navbar{
+    background-color: #1A187A;
+  }
+
+.btn.banner-btn{
+    background-color: #1A187A;
+    color: white;
+  }
+
+
+/* Search icon Start */
+.search-container,input{
+    outline: none;
+    border: none;
+  }
+/* Search icon End */
+
+
+/* slider section start */
+.slider-container {
+    background-image: url(./images/v904-nunny-012\ 1.png);
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+  }
+/* slider section end */
+
+
+
+/* Mobail devices */
+@media only screen and (max-width:576px){
+    .banner-left{
+        
+        text-align: center;
+    }
+  }
+
+
+/*@media only screen and (min-width:425px) and (max-width:1024px){
+  .........
+    }
+  } /* 
+
+/* card section start */
+#card-section h4{
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+    font-style: italic;
+    font-size: 30px;
+    font-weight: 700;
+  }
+
+.card {
+    box-shadow: 0px 2px 10px;
+    padding: 5px;
+    margin-bottom:10px;
+}
+/* card section end */
+
+/* footer section start */
+
+.footer-row {
+    min-height: 400px;
+    padding: 50px;
+    /* background-color: bisque; */
+
+  }
+.footer-col{
+    /* background-color: paleturquoise; */
+    padding: 20px 20px;
+    /* border: 1px solid darkcyan; */
+    /* color: #CFCFCF; */
+  }
+/*footer section end */
+
+
+
+
+
+
+
+
+/* Note for me ........................sujay........................sujay..........................sujay....................sujay */
+/* 
+   <li>
+        <form class="d-flex mt-2 mt-lg-0" role="search">   <!-- note me:d-flex mt-2 mt-lg-0 mb-0 mb-lg-0-->
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+    </li>
+
+
+    <li>
+        <div class="d-flex border rounded-3 bg-white  bg-white mt-3 mt-md-0 py-2 py-md-2 ps-3 ps-md-3">
+            <form class="d-flex search-container" role="search">
+                <span><i class="me-2 me-md-2 fa fa-search" style="color: #989898;"></i></span>
+                <input class="#" type="search" placeholder="Search" aria-label="Search">
+            </form>
+        </div>
+    </li>
+.search-container,input{
+    outline: none;
+    border: none;
+}
+*/
+
+ 
